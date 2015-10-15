@@ -4,8 +4,13 @@ Alipay免签 python 脚本
 
 
 ##传递api参数
-'id' //transaction id
-'time' //'Y-m-d H:i:s'
-'name' //payment message
-'amount' //transaferred balance
-'key' //optional, for server communication security
+
+
+
+| Paras        | Description     
+| ------------- |:-------------:
+| 'id'     | transaction id
+| 'time'     |'Y-m-d H:i:s'   
+| 'name' | payment message   
+|'amount' |  transaferred balance
+|'key' |optional, for server communication security
