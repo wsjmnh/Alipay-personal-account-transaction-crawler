@@ -54,7 +54,7 @@ while True:
         tm = tr.find("td", {"class": "time"}).getText()
         amount = tr.find("td", {"class": "amount income"}).getText()
 
-        data = {'id': id, 'time': tm, 'name': name, 'amount': amount}
+        data = {'id': id, 'time': tm, 'name': name, 'amount': amount, 'key':key}
         response = requests.post(api, data)
         #1 may means received, 2 means data existed
         if response != api_exist and response != api_success:
